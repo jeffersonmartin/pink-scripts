@@ -1,0 +1,2 @@
+# Backup Labstack database every night at 11:00pm (23:00 hrs)
+0 23 * * * root /srv/labstack/mysql/mysql-backup-script.sh
